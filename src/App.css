@@ -1,38 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .App {
-  text-align: center;
+padding: 8em;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  font-size: 48px;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading_name{
+  font-size: 24px;
+  font-weight: 900;
+  color: rgb(86, 86, 86);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tape{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+.tape_label{
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 2em;
+  color: rgb(86, 86, 86);
+}
+
+.detail{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+.details{
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  color: rgb(86, 86, 86);
+}
+.input{
+  margin-bottom: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.instruc_label{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 2em;
+  color: rgb(86, 86, 86);
+}
+
+.instructions{
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+}
+
+.inst_detail{
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+}
+
+.tape_input{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.tape_submit{
+  margin-top: 0.8em;
 }
